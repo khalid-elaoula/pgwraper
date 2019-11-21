@@ -3,7 +3,7 @@
 #include "../../src/pqpool.hpp"
 
 
-std::string conninfo = "dbname=dbgwcl user=getigwcl";
+std::string conninfo = "dbname=rh user=rh";
 
 auto pool = pqpool::instance( conninfo , 10 ); // 10 connexion max ;
 

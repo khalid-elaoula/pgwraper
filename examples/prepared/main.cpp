@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    std::string conninfo = "dbname=dbgwcl user=getigwcl";
+    std::string conninfo = "dbname=rh user=rh";
 
     auto conn = std::make_shared<pqpool::Connection>( conninfo);
     
